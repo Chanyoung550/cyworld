@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/jspdb" auth="Container"
+		driverClassName="com.mysql.cj.jdbc.Driver" type="javax.sql.DataSource"
+		username="root" password="12341234"
+		url="jdbc:mysql://localhost:3306/studydb?serverTimezone=UTC"
+		maxActive="500" maxIdle="100" maxWait="-1"
+		/>
+</Context>

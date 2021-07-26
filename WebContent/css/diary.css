@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*달력*/
+.calendar{
+    display: flex;
+
+    position: absolute;
+    top: 15px;
+    bottom: 477px;
+    left: 40px;
+    right: 40px;
+
+    border: 1px solid silver;
+    border-radius: 5px;
+
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.today{
+    flex: 0.25;
+
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    
+    color: steelblue;
+}
+.day_list{
+    flex: 1;
+
+    margin-left: 10px;
+    margin-top: 2px;
+    line-height: 20px;
+    font-size: 13px;
+
+    color: black;
+}
+/*다이어리*/
+.diary{
+    position: absolute;
+    top: 80px;
+    bottom: 15px;
+    left: 5px;
+    right: 5px;
+
+    overflow: auto;
+}
+.diary_contents{
+    margin: 10px;
+    border: 1px solid silver;
+}
+.diary_date{
+    color: steelblue;
+
+    margin-left: 20px;
+    margin-top: 10px;
+
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.diary_text{
+    color: black;
+
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Gamja Flower', cursive;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#button{
+    margin-left: 170px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    border: 0;
+
+    font-size: 19px;
+    color: white;
+    background-color: white;
+    font-family: 'Gamja Flower', cursive;
+}
+#button:hover{
+    color:black;
+    background-color: whitesmoke;
+
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+#hidden{
+    display: none;
+}

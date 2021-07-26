@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.visit_contents{
+    overflow: auto;
+    
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+
+    color: black;
+
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.visit_title{
+    margin: 10px;
+    height: 35px;
+    
+    font-size: 14px;
+    font-weight:700;
+    line-height: 35px;
+
+    background-color: whitesmoke;
+}
+.visit_container{
+    display: flex;
+}
+.visit_picture{
+    flex: 0.6;
+
+    background-size: cover; 
+
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+
+    border-radius: 3px;
+}
+.visit_picture > img {
+    width: 130px;
+    height: 130px;
+
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.visit_background1{
+    background-image: url("./images/frog_background.jpg");
+}
+.visit_background2{
+    background-image: url("./images/rabbit_background.jpg");
+}
+.visit_background3{
+    background-image: url("./images/dog_background.jpg");
+}
+.visit_text{
+    flex: 1;
+
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+}
+.visit_date{
+    font-size: 11px;
+    color: steelblue;
+}
