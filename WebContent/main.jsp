@@ -24,8 +24,6 @@
 				<c:url value="/member/update.do?userid=${loginUser.userid}" var="uurl" /><!-- value값에 세션에 있는 유저이아디를 get방식으로  회원정보를 변경할 수 있는 페이지로 이동할수 있는 url로 저장-->
 				<td colspan="2" align="center">
 					<input type="submit" value="로그아웃"> &nbsp;&nbsp; <!-- 로그아웃 버튼 -->
-					<input type="button" value="회원정보변경" onclick="location.href='${uurl}'"> &nbsp;&nbsp;
-					<!-- 회원 정보를 변경할 수 있는 페이지로 이동. -->
 					<input type="button" value = "싸이월드" onclick = "location.href = '../home/home.do'">
 					<!-- 싸이월드 홈 페이지로 이동. -->
 				</td>
